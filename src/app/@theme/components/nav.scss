@@ -1,0 +1,49 @@
+
+.nav{
+  // min-width: 100%;
+  height: 5.5rem;
+  background: $nav-bg;
+  padding: 0 2.142857rem;
+  position: relative;
+  color: $foo-color;
+  box-shadow:0 3px 12px  $nav-shadow;
+  .logo-icon{
+    background:$logo-img;
+  }
+  .white-line{
+    background: $divider-logo-line;
+  }
+}
+.system-body{
+  background:$system-bg;
+
+}
+.card{
+  background:$gray-1000;
+  .card-top{
+    border-bottom: 1px solid $grey-line;
+  }
+  h5{
+    color:$font-blue;
+  }
+  p{
+    color:$body-color;
+  }
+}
+.card-contant{
+  h6{
+    color:$body-color;
+  }
+  .circle1{
+    border:3px solid $circle1;
+    color:$circle1;
+  }
+  .circle2{
+    border:3px solid $circle2;
+    color:$circle2;
+  }
+  .circle3{
+    border:3px solid $circle3;
+    color:$circle3;
+  }
+}

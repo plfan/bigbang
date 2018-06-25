@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
+
+
+  get theme(){
+    return sessionStorage.getItem('theme')?sessionStorage.getItem('theme'):'theme-default';
+  }
 }

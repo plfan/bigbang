@@ -1,0 +1,26 @@
+$gray-1000: #0e131a !default;
+$grey-line: #292d33 !default;
+$font-blue: #128adb !default;
+$circle1: #6ca402 !default;
+$circle2: #299dd4 !default;
+$circle3: #e97c06 !default;
+$grey-001: #999999 !default;
+$write: #ffffff !default;
+
+
+$body-bg:       #070b11 !default;
+$body-color:    #fff !default;
+
+
+$foo-color: #999;
+$nav-bg: #0e131a;
+$nav-shadow:#0b0a17;
+$logo-img: url(../../assets/images/logo-white.png) no-repeat 14px 24px;
+$divider-logo-line:#5a5d61;
+$system-bg:#070b11 url(../../assets/images/decorate-bg.png) no-repeat bottom;
+// 其他的变量声明
+.theme-dark {
+  @import '../../../node_modules/bootstrap/scss/bootstrap';
+  @import 'components/index';
+}
+

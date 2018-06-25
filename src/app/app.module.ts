@@ -6,10 +6,12 @@ import { SharedModule } from './shared/shared.module';
 import { FooterComponent } from './pages/layouts/footer/footer.component';
 import { routing } from './app.routing';
 
+
 @NgModule({
   declarations: [
     AppComponent,
     FooterComponent,
+
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,22 @@
+
+$gray-1000: #fff !default;
+
+$grey-line: #ddd !default;
+$font-blue: #4482ec !default;
+$circle1:  #00b874!default;
+$circle2:  #00a0e9 !default;
+$circle3:  #ff8704 !default;
+$grey-999: #999999 !default;
+$body-color: #333 !default;
+
+$foo-color: #000;
+$nav-bg: #ffffff;
+$nav-shadow:#d4d4d7;
+$logo-img: url(../../assets/images/logo-dark.png) no-repeat 14px 24px;
+$divider-logo-line:#98989c;
+$system-bg:#f8f9fa url(../../assets/images/decorate-bg.png) no-repeat bottom;
+// 其他的变量声明
+
+.theme-default {
+  @import 'components/index';
+}
